@@ -64,8 +64,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 De AmplifyTM is een IoT hub die de sfeer tastbaar maakt.Ik ga de website baseren op het design dat Apple gebruikt. (https://www.apple.com/nl/).
 
 Ik ga proberen om zoveel mogelijk met afbeeldingen te werken omdat ik dat nog steeds het moeilijkst vind als het om programmeren gaat.
-Mijn 
-
 
 | Uitdagingen     |
 | -------------- |
