@@ -56,18 +56,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
-
-**Je startniveau:** Rode piste
+**Je startniveau:** Zwarte piste
 
 **Je focus:** Helemaal responsive
 
-**Je opdracht:** https://www.youtube.com/
+**Je opdracht:** Ik ga zelf een website maken waarin ik mezelf ga uitdagen om de website compleet responsive te maken, de website wordt een display website voor het product dat ik in Beyond heb gemaakt namelijk de AmplifyTM.
+De AmplifyTM is een IoT hub die de sfeer tastbaar maakt.Ik ga de website baseren op het design dat Apple gebruikt. (https://www.apple.com/nl/).
+Ik ga proberen om zoveel mogelijk met afbeeldingen te werken omdat ik dat nog steeds het moeilijkst vind als het om programmeren gaat.
+
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/pagina2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/pagina1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
