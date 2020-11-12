@@ -60,7 +60,7 @@ Geen homepagina gedaan want die bevat animaties waardoor de pagina niet te scree
 
 **Je startniveau:** Rode piste
 
-**Je focus:** Helemaal responsive
+**Je focus:** Helemaal responsive/surface plane
 
 **Je opdracht:** Ik ga zelf een website maken waarin ik mezelf ga uitdagen om de website compleet responsive te maken, de website wordt een display website voor het product dat ik in Beyond heb gemaakt namelijk de AmplifyTM.
 De AmplifyTM is een IoT hub die de sfeer tastbaar maakt.Ik ga de website baseren op het design dat Apple gebruikt. (https://www.apple.com/nl/).
@@ -76,8 +76,8 @@ Ik ga proberen om zoveel mogelijk met afbeeldingen te werken omdat ik dat nog st
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/apple1.jpg" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/apple2.jpg" width="375px" alt="omschrijving van de pagina">
