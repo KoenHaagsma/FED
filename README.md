@@ -52,7 +52,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img src="images/breakdownschets.jpg" width="375px" alt="Breakdownschets van de Ipad Air pagina van apple.">
+
+Geen homepagina gedaan want die bevat animaties waardoor de pagina niet te screenshotten valt.
 
 ## Intake (week 1)
 
@@ -65,12 +67,12 @@ De AmplifyTM is een IoT hub die de sfeer tastbaar maakt.Ik ga de website baseren
 
 Ik ga proberen om zoveel mogelijk met afbeeldingen te werken omdat ik dat nog steeds het moeilijkst vind als het om programmeren gaat.
 
-| Uitdagingen     |
-| -------------- |
-| Compleet responsive maken van website  |
+| Uitdagingen                                 |
+| ------------------------------------------- |
+| Compleet responsive maken van website       |
 | Afbeeldingen correct in de website plaatsen |
-| Afbeeldingen 'animeren' / laten bewegen |
-| Landing page design |
+| Afbeeldingen 'animeren' / laten bewegen     |
+| Landing page design                         |
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
