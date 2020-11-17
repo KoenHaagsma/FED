@@ -65,6 +65,7 @@ main {
 }
 
 .textBar:first-of-type button {
+  /* Kleuren natuurlijk gestolen van de website zelf */
   background-color: #0071e3;
   border-style: none;
   border-radius: 12px;
@@ -111,6 +112,7 @@ Zou het zelf anders doen weet alleen nog niet hoe. */
   margin-right: 0.5em;
   /* Ronde gradient (Radial - in een radius) */
   background: radial-gradient(#a1a1a6, #000) 80%;
+  /* Grotere background want dan komt het witte wat meer naar voren. */
   background-size: 100% 400%;
   /* Background toepassen op de tekst achtergrond */
   background-clip: text;
