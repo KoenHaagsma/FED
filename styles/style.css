@@ -56,7 +56,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  background-color: rgba(29,29,31,0.8);
+  background-color: rgba(29, 29, 31, 0.8);
   color: white;
   padding: 1em;
   left: 0;
