@@ -65,7 +65,7 @@ Apple veranderd ook constant hun website, ik probeer de pagina steeds gelijk te 
 **Je focus:** Helemaal responsive/surface plane
 
 **Je opdracht:** Ik ga zelf een website maken waarin ik mezelf ga uitdagen om de website compleet responsive te maken, de website wordt een display website voor het product dat ik in Beyond heb gemaakt namelijk de AmplifyTM.
-De AmplifyTM is een IoT hub die de sfeer tastbaar maakt.Ik ga de website baseren op het design dat Apple gebruikt. (https://www.apple.com/nl/).
+De AmplifyTM is een IoT hub die de sfeer tastbaar maakt.Ik ga de website baseren op het design dat Apple gebruikt. (https://www.apple.com/nl/). Wel gaat dit worden een subpagina van hun omdat ik de homepagina als 'makkelijk' ervaar.
 
 Ik ga proberen om zoveel mogelijk met afbeeldingen te werken omdat ik dat nog steeds het moeilijkst vind als het om programmeren gaat.
 
