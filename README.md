@@ -56,6 +56,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Geen homepagina gedaan want die bevat animaties waardoor de pagina niet te screenshotten valt.
 
+Apple veranderd ook constant hun website, ik probeer de pagina steeds gelijk te houden maar als ze veranderen kan ik er niks aan doen. Wel ga ik proberen ongeveer dezelfde animaties aan te houden.
+
 ## Intake (week 1)
 
 **Je startniveau:** Rode piste
