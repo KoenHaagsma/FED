@@ -31,7 +31,13 @@
 
 	<main>
 		<div class="hero">
-			<img class="hero_image" src="../FED/images/hero__x8ruukomx2au_small_2x.jpg">
+			<!-- Uitgevonden dat ik ook media queries op HTML kan zetten en dat je een picture meerdere sources kan zetten
+			https://stackoverflow.com/questions/30460681/changing-image-src-depending-on-screen-size -->
+			<picture class="hero_image" height="100%" width="100%">
+				<source media="(min-width: 1070px)" srcset="/images/hero__x8ruukomx2au_large.jpg" id="overflowHidden">
+				<source media="(min-width: 736px)" srcset="/images/hero__x8ruukomx2au_medium.jpg">
+				<img src="/images/hero__x8ruukomx2au_small_2x.jpg" alt="hero_image">
+			</picture>
 			<section class="hero_content">
 				<h1>Mac mini</h1>
 				<h2>Nieuwe Kern. Meer pit.</h2>
@@ -39,18 +45,38 @@
 					presteert tot 3 keer beter. De GPU is tot 6 keer zo snel. En dankzij de uiterst geavanceerde Neural
 					Engine gaat machine learning tot 15 keer zo snel. Dus wat je ook op Mac mini wilt doen, alles gaat
 					sneller en met meer vermogen dan je ooit voor mogelijk hebt gehouden.</p>
-				<img class="hero_icon" src="../FED/images/hero_icon__c0h85oo6to8y_small_2x.jpg" height="100%"
-					width="100%">
+				<img class="hero_icon" src="/images/hero_icon__c0h85oo6to8y_small_2x.jpg" height="100%" width="100%">
 				<p>Met de superkracht van de Apple M1-chip</p>
 				<p class="whiteText">Vanaf € 799</p>
 				<p class="whiteText">Bekijk het event op onze Amerikaanse website ></p>
 			</section>
 
-
 		</div>
 		<section class="main_content">
-			<img src="../FED/images/m1_eyebrow__b1rkf17i6ymq_small_2x.png" class="m1_icon" width="100%" height="100%">
+			<div class="iconContainer">
+				<img src="/images/m1_eyebrow__b1rkf17i6ymq_small_2x.png" class="m1_icon" width="100%" height="100%">
+			</div>
 			<h1>Kleine chip. Immense vooruitgang.</h1>
+			<div class="cards">
+				<section class="cpu">
+
+				</section>
+				<section class="gpu">
+
+				</section>
+				<section class="machine_learning">
+
+				</section>
+				<div class="two_cards">
+					<section class="snel_systeem">
+
+					</section>
+					<section class="veel_apps">
+
+					</section>
+				</div>
+
+			</div>
 		</section>
 	</main>
 
