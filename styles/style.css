@@ -1,0 +1,132 @@
+/* Gebruikt gemaakt van css-tricks
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+Veel gebruikt gemaakt van Stackoverflow, gewoon lekker zoeken*/
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  position: relative;
+}
+
+.stuckNav {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 50%;
+}
+
+.fixedNav {
+  display: flex;
+  background-color: rgba(105, 105, 105, .8);
+  width: 100vw;
+  height: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: -11em;
+}
+
+
+
+.hero h1 {
+  color: white;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: .5em;
+  font-size: 4em;
+  color: #a1a1a6;
+  max-width: 5em;
+}
+
+.hero p {
+  text-align: center;
+  margin-top: .8em;
+  margin-left: .2em;
+  margin-right: .2em;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #a1a1a6;
+  max-width: 40em;
+}
+
+.hero_icon {
+  text-align: center;
+  margin-top: 2em;
+  width: 66px;
+  height: 66px;
+}
+
+.hero .whiteText {
+  color: white;
+  font-weight: 300;
+  line-height: 1.2em;
+  max-width: 12em;
+}
+
+.main_content {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-top: 6em;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.m1_icon {
+  width: 8em;
+
+}
+
+.main_content h1 {
+  margin-top: 0.3em;
+  color: white;
+  font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
+/* Dit wordt toegevoegd met het scrollen */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
