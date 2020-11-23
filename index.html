@@ -14,73 +14,122 @@
 <body>
 	<header>
 		<nav class="stuckNav">
-			<ul>
-				<li>
-				</li>
-				<li>
-
-				</li>
-				<li>
-
-				</li>
+				<!-- Moet nog een hamburger menu van gemaakt worden en logo's invoegen -->
+				<ul>
+					<li>
+						<a></a>
+					</li>
+					<li>
+						<a>Mac</a>
+					</li>
+					<li>
+						<a>iPad</a>
+					</li>
+					<li>
+						<a>iPhone</a>
+					</li>
+					<li>
+						<a>Watch</a>
+					</li>
+					<li>
+						<a>TV</a>
+					</li>
+					<li>
+						<a>Music</a>
+					</li>
+					<li>
+						<a>Support</a>
+					</li>
+					<li>
+						<a></a>
+					</li>
+					<li>
+						<a></a>
+					</li>
 			</ul>
 		</nav>
-		<nav class="fixedNav">
-		</nav>
 	</header>
-
 	<main>
-		<div class="hero">
-			<!-- Uitgevonden dat ik ook media queries op HTML kan zetten en dat je een picture meerdere sources kan zetten
+		<nav class="fixedNav">
+			<div class="fixedWrapper">
+				<h1>
+					Mac Mini
+				</h1>
+				<button>
+					Koop
+				</button>
+			</div>
+		</nav>
+		<div class="pageWrapper">
+			<div class="hero">
+				<!-- Uitgevonden dat ik ook media queries op HTML kan zetten en dat je een picture meerdere sources kan zetten
 			https://stackoverflow.com/questions/30460681/changing-image-src-depending-on-screen-size -->
-			<picture class="hero_image" height="100%" width="100%">
-				<source media="(min-width: 1070px)" srcset="/images/hero__x8ruukomx2au_large.jpg" id="overflowHidden">
-				<source media="(min-width: 736px)" srcset="/images/hero__x8ruukomx2au_medium.jpg">
-				<img src="/images/hero__x8ruukomx2au_small_2x.jpg" alt="hero_image">
-			</picture>
-			<section class="hero_content">
-				<h1>Mac mini</h1>
-				<h2>Nieuwe Kern. Meer pit.</h2>
-				<p>De M1‑chip van Apple geeft een totaal andere dimensie aan onze meest veelzijdige alleskunner. De CPU
-					presteert tot 3 keer beter. De GPU is tot 6 keer zo snel. En dankzij de uiterst geavanceerde Neural
-					Engine gaat machine learning tot 15 keer zo snel. Dus wat je ook op Mac mini wilt doen, alles gaat
-					sneller en met meer vermogen dan je ooit voor mogelijk hebt gehouden.</p>
-				<img class="hero_icon" src="/images/hero_icon__c0h85oo6to8y_small_2x.jpg" height="100%" width="100%">
-				<p>Met de superkracht van de Apple M1-chip</p>
-				<p class="whiteText">Vanaf € 799</p>
-				<p class="whiteText">Bekijk het event op onze Amerikaanse website ></p>
-			</section>
+				<picture class="hero_image" height="100%" width="100%">
+					<source media="(min-width: 1070px)" srcset="/images/hero__x8ruukomx2au_large.jpg"
+						class="overflowHidden">
+					<source media="(min-width: 736px)" srcset="/images/hero__x8ruukomx2au_medium.jpg"
+						class="overflowHidden">
+					<img src="/images/hero__x8ruukomx2au_small_2x.jpg" alt="hero_image" class="overflowHidden">
+				</picture>
+				<section class="hero_content">
+					<h1>Mac mini</h1>
+					<h2>Nieuwe Kern. Meer pit.</h2>
+					<p>De M1‑chip van Apple geeft een totaal andere dimensie aan onze meest veelzijdige alleskunner. De
+						CPU
+						presteert tot 3 keer beter. De GPU is tot 6 keer zo snel. En dankzij de uiterst geavanceerde
+						Neural
+						Engine gaat machine learning tot 15 keer zo snel. Dus wat je ook op Mac mini wilt doen, alles
+						gaat
+						sneller en met meer vermogen dan je ooit voor mogelijk hebt gehouden.</p>
+					<img class="hero_icon" src="/images/hero_icon__c0h85oo6to8y_small_2x.jpg" height="100%"
+						width="100%">
+					<p>Met de superkracht van de Apple M1-chip</p>
+					<p class="whiteText">Vanaf € 799</p>
+					<p class="whiteText">Bekijk het event op onze Amerikaanse website ></p>
+				</section>
 
-		</div>
-		<section class="main_content">
-			<div class="iconContainer">
-				<img src="/images/m1_eyebrow__b1rkf17i6ymq_small_2x.png" class="m1_icon" width="100%" height="100%">
 			</div>
-			<h1>Kleine chip. Immense vooruitgang.</h1>
-			<div class="cardsContainer">
-				<div class="cards">
-					<section class="cpu">
-
-					</section>
-					<section class="gpu">
-
-					</section>
-					<section class="machine_learning">
-
-					</section>
-					<div class="two_cards">
-						<section class="snel_systeem">
-
-						</section>
-						<section class="veel_apps">
-
-						</section>
+			<section class="main_content">
+				<div class="H1andIcon">
+					<div class="iconContainer">
+						<img src="/images/m1_eyebrow__b1rkf17i6ymq_small_2x.png" class="m1_icon" width="100%"
+							height="100%">
 					</div>
-
+					<h1>Kleine chip. Immense vooruitgang.</h1>
 				</div>
-			</div>
-		</section>
+				<div class="cardsContainer">
+					<div class="cards">
+						<section class="cpu">
+
+						</section>
+						<section class="gpu">
+
+						</section>
+						<section class="machine_learning">
+
+						</section>
+						<div class="two_cards">
+							<section class="snel_systeem">
+
+							</section>
+							<section class="veel_apps">
+
+							</section>
+						</div>
+						<div class="two_not_even_cards">
+							<section class="compact_ontwerp">
+
+							</section>
+							<section class="centraal_geheugen">
+
+							</section>
+						</div>
+
+					</div>
+				</div>
+			</section>
 	</main>
+	</div>
 
 	<footer>
 	</footer>

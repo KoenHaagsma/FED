@@ -10,43 +10,104 @@ html {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  height: 12vh;
+  height: 8vh;
+}
+
+
+.stuckNav {
+  background-color: rgba(0, 0, 0, .9);
+  height: 100%;
+  color: white;
+  z-index: 11;
   position: relative;
 }
 
-.stuckNav {
+.stuckNav ul {
+  height: 100%;
   display: flex;
-  background-color: black;
-  width: 100vw;
-  height: 50%;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
 }
 
 .fixedNav {
   display: flex;
-  background-color: rgba(105, 105, 105, .8);
-  width: 100vw;
-  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgba(29, 29, 31, 0.72);
+  height: 8vh;
+  width: 100%;
+  z-index: 10;
+}
+
+.fixedWrapper {
+  flex-grow: 1;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.fixedNav h1 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.fixedNav button {
+  text-decoration: none;
+  background-color: #0071e3;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding-left: .8em;
+  padding-right: .8em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+
+
 }
 
 main {
   display: flex;
   flex-direction: column;
-  /* temporary */
-  min-height: 400vh;
   background-color: black;
   min-width: 320px;
+
+}
+
+/* -----Fixed header----- */
+.sticky {
+  top: 0;
+  position: fixed;
+  width: 100%;
+
+}
+
+.sticky+.pageWrapper {
+  padding-top: 8vh;
+}
+
+/* ---------------------- */
+
+.pageWrapper {
+  top: -10em;
+  max-width: 100%;
 }
 
 .hero {
-  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -16vh;
 }
 
 .hero_content {
@@ -95,6 +156,11 @@ main {
   max-width: 12em;
 }
 
+.H1andIcon {
+  margin-left: 10vw;
+  margin-right: 20vw;
+}
+
 .main_content {
   display: flex;
   justify-content: center;
@@ -106,7 +172,6 @@ main {
 
 .m1_icon {
   width: 8em;
-
 }
 
 .main_content h1 {
@@ -116,15 +181,15 @@ main {
   max-width: 15em;
 }
 
-#overflowHidden {
-  overflow-x: hidden;
+.overflowHidden {
+  width: 100vw;
 }
 
 /* Ik werk hier voor de eerste keer met grid dus ben een beetje aan het spelen. */
 .cards {
   margin-top: 4em;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row-gap: 1em;
   grid-column-gap: 1em;
   align-items: center;
@@ -132,12 +197,11 @@ main {
 
 /* - 1 + de 3 opvolgende sections, dus start bij 0 en anders start je bij 1 */
 .cards>section:nth-child(-n+3) {
-  border: 1px solid white;
   border-radius: 25px;
   grid-column-start: 1;
-  grid-column-end: 3;
-  height: 40em;
-  max-width: 80em;
+  grid-column-end: 5;
+  height: 60em;
+  max-width: 90vw;
   margin: auto;
   width: 100%;
 }
@@ -146,7 +210,53 @@ main {
   background-color: #c6368a;
 }
 
-@media screen and (min-width: 1070px) {
+.cards section:nth-child(2) {
+  background-color: #031A28;
+}
+
+.cards section:nth-child(3) {
+  background-color: #590a0d;
+}
+
+.two_cards,
+.two_not_even_cards {
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two_cards section:nth-child(-n+2),
+.two_not_even_cards section:nth-child(-n+2) {
+  border-radius: 25px;
+  width: 100%;
+  height: 40em;
+}
+
+.two_cards section:nth-child(1) {
+  background-color: #CE2877;
+}
+
+.two_cards section:nth-child(2) {
+  background-color: #354A7F;
+}
+
+.two_not_even_cards section:nth-child(1) {
+  background-color: #c48cfc;
+  width: 70%;
+}
+
+.two_not_even_cards section:nth-child(2) {
+  background-color: #1d1d1f;
+}
+
+
+/* Media queries */
+/* Small: <640px Medium: 641 - 1007px Large: >1008px  */
+@media screen and (min-width: 1008px) {
   .main_content h1 {
     font-size: 5em;
     max-width: 12em;
@@ -157,10 +267,54 @@ main {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 641px) {
   .main_content {
     font-size: 0.9em;
     margin-left: 10vw;
     margin-right: 10vw;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  .two_cards,
+  .two_not_even_cards {
+    flex-direction: column;
+  }
+
+  .two_not_even_cards section:nth-child(1) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 736px) {
+    .overflowHidden {
+      width: 100vw;
+    }
+
+    .hero_content {
+      margin-top: -4em;
+    }
+
+    .main_content h1 {
+      font-size: 2.5em;
+    }
+  }
+
+  @media screen and (min-width: 420px) {
+    .hero_content {
+      margin-top: -6em;
+    }
+  }
+
+  @media screen and (min-width: 530px) {
+    .hero_content {
+      margin-top: -8em;
+    }
+  }
+
+  @media screen and (min-width: 690px) {
+    .hero_content {
+      margin-top: -10em;
+    }
   }
 }
