@@ -13,7 +13,6 @@ header {
   height: 8vh;
 }
 
-
 .stuckNav {
   background-color: rgba(0, 0, 0, .9);
   height: 100%;
@@ -68,9 +67,6 @@ header {
   padding-right: .8em;
   padding-top: .5em;
   padding-bottom: .5em;
-
-
-
 }
 
 main {
@@ -252,7 +248,6 @@ main {
 .two_not_even_cards section:nth-child(2) {
   background-color: #1d1d1f;
 }
-
 
 /* Media queries */
 /* Small: <640px Medium: 641 - 1007px Large: >1008px  */

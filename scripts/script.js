@@ -3,7 +3,7 @@
 // Dit omdat ik niet precies wist hoe het moest, code is wel duidelijk beetje aangepast om hetn aar m'n eigen stijl te doen
 
 window.onscroll = function () {
-    fixedHeader()
+    fixedHeader();
 };
 
 let header = document.querySelector(".fixedNav");
