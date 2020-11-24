@@ -6,6 +6,23 @@ window.onscroll = function () {
 
 let header = document.querySelector(".fixedNav");
 let sticky = header.offsetTop;
+let hamburgerButton = document.querySelector(".fullHamburger");
+let hamburgerDiv = document.querySelector(".hamburgerMenu");
+let closeButton = document.querySelector(".closeButton");
+
+hamburgerButton.addEventListener("click", displayHamburgerDiv);
+closeButton.addEventListener("click", undisplayHamburgerDiv);
+
+console.log(hamburgerButton);
+console.log(closeButton);
+
+function displayHamburgerDiv() {
+    hamburgerDiv.classList.add("hamburgerShow");
+};
+
+function undisplayHamburgerDiv() {
+    hamburgerDiv.classList.remove("hamburgerShow");
+};
 
 function fixedHeader() {
     if (window.pageYOffset > sticky) {
@@ -13,4 +30,4 @@ function fixedHeader() {
     } else {
         header.classList.remove("sticky");
     }
-}
+};
