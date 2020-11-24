@@ -9,16 +9,13 @@ html {
   font-family: "Arial", Helvetica, sans-serif;
 }
 
-header {
-  height: 8vh;
-}
-
 .stuckNav {
   background-color: rgba(0, 0, 0, .9);
   height: 100%;
   color: white;
   z-index: 11;
   position: relative;
+  height: 4em;
 }
 
 .stuckNav ul {
@@ -37,7 +34,7 @@ header {
   align-items: center;
   color: white;
   background-color: rgba(29, 29, 31, 0.72);
-  height: 8vh;
+  height: 4em;
   width: 100%;
   z-index: 10;
 }
@@ -75,6 +72,7 @@ main {
   background-color: black;
   min-width: 320px;
 
+
 }
 
 /* -----Fixed header----- */
@@ -86,7 +84,7 @@ main {
 }
 
 .sticky+.pageWrapper {
-  padding-top: 8vh;
+  padding-top: 4em;
 }
 
 /* ---------------------- */
@@ -94,6 +92,7 @@ main {
 .pageWrapper {
   top: -10em;
   max-width: 100%;
+
 }
 
 .hero {
@@ -103,7 +102,8 @@ main {
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -16vh;
+  margin-top: -8em;
+
 }
 
 .hero_content {
@@ -113,6 +113,7 @@ main {
   text-align: center;
   align-items: center;
   margin-top: -11em;
+  z-index: 2;
 }
 
 .hero h1 {
@@ -143,6 +144,22 @@ main {
   margin-top: 2em;
   width: 66px;
   height: 66px;
+}
+
+
+/* https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/ */
+.hero_image {
+  animation: fadeInAnimation 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .hero .whiteText {
@@ -254,7 +271,7 @@ main {
 @media screen and (min-width: 1008px) {
   .main_content h1 {
     font-size: 5em;
-    max-width: 12em;
+    max-width: 12em; 
   }
 
   .m1_icon {
