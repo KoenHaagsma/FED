@@ -10,7 +10,7 @@ html {
 }
 
 .stuckNav {
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, .95);
   height: 100%;
   color: white;
   z-index: 11;
@@ -33,7 +33,7 @@ html {
   justify-content: space-between;
   align-items: center;
   color: white;
-  background-color: rgba(29, 29, 31, 0.72);
+  background-color: rgba(29, 29, 31, 0.85);
   height: 4em;
   width: 100%;
   z-index: 10;
@@ -271,7 +271,7 @@ main {
 @media screen and (min-width: 1008px) {
   .main_content h1 {
     font-size: 5em;
-    max-width: 12em; 
+    max-width: 12em;
   }
 
   .m1_icon {
