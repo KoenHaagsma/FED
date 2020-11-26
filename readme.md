@@ -40,11 +40,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Koen                                                                | Andrej                                                                                          | Daan                                                                      | Bilal                                                                                                                                       | Jeffrey                                                                                                                  |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Cubic brezier hoe gebruik ik dit heb er naar gezocht is nog lastig. | Hoe zet je een looped video op de achtergrond en kan ik bovenop die videos nog images plaatsen? | Hoe zet je de navigatie vanaf de searchbutton tot winkelmand naar rechts? | Zijn er nog een aantal makkelijkere opdrachten om te doen voor javascript ,omdat ik javascript iets te moeilijk vindt om te doen?           | Hoe kan je een slider het beste aanmaken? ( dus afbeelding met 4 klikbare bolletjes erin om van afbeelding te switchen ) |
+| Images plaatsen CSS of HTML?                                        | Hoe goed moet je het minimale javascript onderdeel nou snappen om het te gebeuiken?             | nog een punt                                                              | Ik heb een video gekeken voor een hamburger menu, deze video maakt gebruik van jquery. Mag je jquery gebruiken als je snapt wat er gebeurt? | ...                                                                                                                      |
+| ...                                                                 | ...                                                                                             | ...                                                                       | ...                                                                                                                                         | ...                                                                                                                      |
 
 ### Verslag van meeting
 
