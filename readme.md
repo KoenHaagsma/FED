@@ -34,11 +34,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/Screenshot_van_ voortgang.png" width="375px" alt="Voortgang screenshot van de website">
 
 ### Agenda voor meeting
-
--samen met je groepje opstellen-
 
 | Koen                                                                | Andrej                                                                                          | Daan                                                                      | Bilal                                                                                                                                       | Jeffrey                                                                                                                  |
 | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -51,7 +49,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Het gesprek verliep volgens het schema, iedereen kwam achter elkaar aan de beurt waardoor je de volle aandacht kreeg om je vraag te stellen.
 Mijn vragen werden goed beantwoord en zijn nu duidelijk.
 Images in CSS of HTML plaatsen, dit is voor iedereen verschillend er is niet echt een vaste regel die je kan hanteren voor het plaatsen van Images, maar je kan kijken naar, is de afbeelding een onderdeel van de content, dan plaats je deze in HTML als deze niet onderdeel is van de content dan plaats je het in CSS zoals bijvoorbeeld een achtergrond.
-Ook is mijn vraag over Cubicbrezier beantwoord. Ik wist totaal niet wat Cubicbrezier is maar door de les is het wel nu duidelijk. Deze website is handig om te gebruiken bij het gebruiken van Cubicbrezier. https://cubic-bezier.com/
+Ook is mijn vraag over Cubicbrezier beantwoord. Ik wist totaal niet wat Cubicbrezier is maar door de les is het wel nu duidelijk. Deze website is handig om te gebruiken bij het gebruiken van Cubicbrezier.
+https://cubic-bezier.com/
 
 ## Breakdownschets (week 1)
 
