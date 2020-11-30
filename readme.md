@@ -30,11 +30,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Zoals ook in de vragen die ik heb gesteld vond ik het lastig om afbeeldingen te plaatsen en te vormen met CSS dit is voor mij altijd al een moeilijk ding geweest, maar ik merk wel dat het steeds beter gaat, wat erg goed ging is het gebruik van flexbox en grid, zelf hier al wat kennis van en dit zie ik ook terug in hoe makkelijk ik daar doorheen kom.
 
 **Screenshot(s):**
 
 <img src="images/Screenshot_van_ voortgang.png" width="375px" alt="Voortgang screenshot van de website">
+
+Hier zie je dat ik al aardig ben opgeschoten, de pagina is vrijwel responsive en heeft al werkende transitions etc, ook heeft het al een hamburger menuutje die werkt.
 
 ### Agenda voor meeting
 
