@@ -24,6 +24,8 @@ body {
 
 .stuckNav ul {
   height: 100%;
+  max-width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -161,6 +163,7 @@ main {
 .pageWrapper {
   top: -10em;
   max-width: 100%;
+  margin-bottom: 2em;
 }
 
 .hero {
@@ -193,7 +196,7 @@ main {
   margin-top: .5em;
   font-size: 4em;
   color: #a1a1a6;
-  max-width: 5em;
+  max-width: 7em;
 }
 
 .hero p {
@@ -281,7 +284,7 @@ main {
   border-radius: 25px;
   grid-column-start: 1;
   grid-column-end: 5;
-  height: 60em;
+  height: 40em;
   max-width: 90vw;
   margin: auto;
   width: 100%;
@@ -334,6 +337,95 @@ main {
   background-color: #1d1d1f;
 }
 
+footer {
+  background-color: #1d1d1f;
+  width: 100%;
+  height: 100%;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footerCardsWrapper {
+  flex-grow: 1;
+  width: 90%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #424245;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footerCardsWrapper section:nth-child(-n+3) {
+  flex-grow: 1;
+  max-width: 33%;
+  margin: 1em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.footerCardsWrapper section h4 {
+  font-size: 1.2em;
+  margin-top: 1em;
+  color: white;
+  max-width: 50%;
+}
+
+.footerCardsWrapper section p {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 50%;
+}
+
+.footerCardsWrapper section a {
+  color: #2997ff;
+  text-decoration: underline;
+  padding-top: 1.5em;
+  cursor: pointer;
+}
+
+#bezorging,
+#contact,
+#persoonlijk {
+  align-items: center;
+  width: 100%;
+  height: 3.5em;
+  background-size: 100% 3.5em;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#bezorging {
+  background-image: url("https://www.apple.com/ac/globalfooter/6/nl_NL/assets/ac-buystrip/shipping/icon_dark_large.svg");
+}
+
+#contact {
+  background-image: url("https://www.apple.com/ac/globalfooter/6/nl_NL/assets/ac-buystrip/help/icon_dark_large.svg");
+}
+
+#persoonlijk {
+  background-image: url("https://www.apple.com/ac/globalfooter/6/nl_NL/assets/ac-buystrip/personal_setup/icon_dark_large.svg");
+}
+
+.bottomWrapper {
+  padding-top: 1em;
+  width: 90%;
+  display: flex;
+  margin: 1em;
+  flex-grow: 1;
+}
+
+.bottomWrapper p {
+  color: #424245;
+  text-align: center;
+}
+
 /* Media queries */
 /* Small: <640px Medium: 641 - 1007px Large: >1008px  */
 @media screen and (min-width: 1008px) {
@@ -379,10 +471,7 @@ main {
       font-size: 2.5em;
     }
 
-    .stuckNav {
-      height: 3em;
-    }
-
+    .stuckNav,
     .fixedNav {
       height: 3em;
     }
@@ -390,6 +479,21 @@ main {
     .sticky+.pageWrapper {
       padding-top: 3em;
     }
+
+    .footerCardsWrapper {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .footerCardsWrapper section:nth-child(-n+3) {
+      max-width: 80%;
+    }
+
+    .footerCardsWrapper section h4,
+    .footerCardsWrapper section p {
+      max-width: 80%;
+    }
+
   }
 
   @media screen and (min-width: 420px) {
@@ -406,7 +510,7 @@ main {
 
   @media screen and (min-width: 690px) {
     .hero_content {
-      margin-top: -10em;
+      margin-top: -6em;
     }
   }
 }
