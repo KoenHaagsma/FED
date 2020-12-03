@@ -345,6 +345,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 .footerCardsWrapper {
@@ -373,14 +374,14 @@ footer {
   font-size: 1.2em;
   margin-top: 1em;
   color: white;
-  max-width: 50%;
+  max-width: 80%;
 }
 
 .footerCardsWrapper section p {
   color: white;
   margin-top: 1em;
   margin-bottom: 1em;
-  max-width: 50%;
+  max-width: 80%;
 }
 
 .footerCardsWrapper section a {
@@ -489,10 +490,6 @@ footer {
       max-width: 80%;
     }
 
-    .footerCardsWrapper section h4,
-    .footerCardsWrapper section p {
-      max-width: 80%;
-    }
 
   }
 
