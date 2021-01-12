@@ -6,9 +6,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -https://www.apple.com/nl/mac-mini/-
+2. -https://www.apple.com/nl/shop/buy-mac/mac-mini-
+3. -https://stackoverflow.com/questions/30460681/changing-image-src-depending-on-screen-size-
+4. -https://css-tricks.com/snippets/css/a-guide-to-flexbox/-
+5. -https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/-
+
 
 ## Eindgesprek (week 7/8)
 
@@ -20,11 +23,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+In voortgang 3 heb ik 1 op 1 gepraat met Vasilis dit omdat er niemand verder bij de voortgang was, later schoof wel Daan Thai nog aan, waardoor het nog iets langer duurde, ik heb met Vasilis een gesprek gehad over waarom ik alles al zo'n beetje kon en hoe ik het zelf vond gaan, hieruit kwam dat als ik er te makkelijk doorheen kwam dat ik naar hem toe stapte voor extra verdieping.
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+In de tweede voortgang hebben we gepraat met de studentassistenten, maar eigenlijk had ik geen tot weinig vragen. Dus ik heb goed geluisterd naar wat ze vertelden maar alles wat ze vertelden wist ik de antwoorden wel op.
 
 ## Voortgang 1 (week 3)
 

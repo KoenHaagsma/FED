@@ -35,6 +35,29 @@ body {
   font-size: 1em;
 }
 
+.stuckNav ul .noHamburger button {
+  padding: 0.5em 1em 0.5em 1em;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 1em;
+  outline: none;
+}
+
+.stuckNav>ul>.noHamburger>button:focus {
+  border: 0.5px solid white;
+  scale: 1.2;
+  transition: 1s;
+}
+
+.stuckNav>ul>.noHamburger>button:hover {
+  text-decoration: underline;
+}
+
+.stuckNav>ul>.noHamburger>button:active {
+  text-decoration: underline;
+}
+
 .hamburgerMenu>li,
 .noHamburger {
   cursor: pointer;
@@ -145,6 +168,17 @@ body {
   padding-bottom: .5em;
 }
 
+.fixedNav button:focus {
+  scale: 1.5;
+  transition: 1s;
+  border: none;
+  outline: none;
+}
+
+.fixedNav button:hover {
+  text-decoration: underline;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -223,7 +257,6 @@ main {
   height: 66px;
 }
 
-
 /* https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/ */
 .hero_image {
   animation: fadeInAnimation 0.8s ease-in-out forwards;
@@ -292,7 +325,7 @@ main {
   grid-column-end: 5;
   max-width: 90vw;
   margin: auto;
-  height: 40em;
+  min-height: 40em;
   width: 100%;
 }
 
@@ -304,8 +337,54 @@ main {
   background-color: #031A28;
 }
 
+.cards section:nth-child(2)>.cardsTextWrapper {
+  color: white;
+}
+
+.cards section:nth-child(2)>.cardsTextWrapper>h3 {
+  padding-bottom: 1em;
+}
+
+.cards section:nth-child(2)>.cardsTextWrapper>h1 {
+  max-width: 12em;
+}
+
+.cards section:nth-child(2)>.cardsTextWrapper>p {
+  margin-top: 1.5em;
+  max-width: 30em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.cards section:nth-child(2)>.cardsTextWrapper>button {
+  margin-top: 2em;
+  padding: .8em 1.5em .8em 1.5em;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  background: none;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
 .cards section:nth-child(3) {
   background-color: #590a0d;
+  color: white;
+}
+
+.cards section:nth-child(3)>.cardsTextWrapper>h3 {
+  margin-bottom: 1.3em;
+}
+
+.cards section:nth-child(3)>.cardsTextWrapper>p {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 4em;
+}
+
+.cards section:nth-child(3)>.cardsTextWrapper>h1 {
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .two_cards,
@@ -319,11 +398,53 @@ main {
   align-items: center;
 }
 
+.picture_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+}
+
+.compact_ontwerp>.app_image {
+  display: block;
+  left: 50%;
+}
+
 .two_cards section:nth-child(-n+2),
 .two_not_even_cards section:nth-child(-n+2) {
   border-radius: 25px;
   width: 100%;
-  height: 40em;
+  min-height: 50em;
+  color: white;
+}
+
+.cardsTextWrapper>p {
+  font-weight: bold;
+}
+
+.snel_systeem p {
+  margin-top: 2em;
+  max-width: 30em;
+}
+
+.veel_apps p {
+  max-width: 30em;
+}
+
+.compact_ontwerp p {
+  max-width: 30em;
+  margin-top: 2em;
+}
+
+.centraal_geheugen {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.large_p {
+  font-size: 2em !important;
+  max-width: 20em !important;
 }
 
 .two_cards section:nth-child(1) {
@@ -357,7 +478,9 @@ main {
   margin-top: 1.5em;
 }
 
-.cpu>.cardsTextWrapper>button {
+.cpu>.cardsTextWrapper>button,
+.cards section:nth-child(2)>.cardsTextWrapper>button,
+.cards section:nth-child(3)>.cardsTextWrapper>button {
   margin-top: 2em;
   padding: .8em 1.5em .8em 1.5em;
   color: white;
@@ -366,6 +489,23 @@ main {
   background: none;
   font-weight: bold;
   margin-bottom: 2em;
+}
+
+.cpu>.cardsTextWrapper>button:focus,
+.cards section:nth-child(2)>.cardsTextWrapper>button:focus,
+.cards section:nth-child(3)>.cardsTextWrapper>button:focus {
+  scale: 1.2;
+  transition: 1s;
+  outline: none;
+  margin-left: 2em;
+  text-decoration: underline;
+}
+
+.cpu>.cardsTextWrapper>button:hover,
+.cards section:nth-child(2)>.cardsTextWrapper>button:hover,
+.cards section:nth-child(3)>.cardsTextWrapper>button:hover {
+  outline: none;
+  text-decoration: underline;
 }
 
 .two_cards section:nth-child(2) {
@@ -428,11 +568,27 @@ footer {
   max-width: 80%;
 }
 
-.footerCardsWrapper section a {
+.footerCardsWrapper section button {
   color: #2997ff;
   text-decoration: underline;
-  padding-top: 1.5em;
   cursor: pointer;
+  border: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.footerCardsWrapper section button:focus {
+  scale: 1.3;
+  transition: 1s;
+  border: 1px solid #2997ff;
+  padding: 0.5em;
+}
+
+.footerCardsWrapper section button:hover {
+  border: 1px solid #2997ff;
+  text-decoration: none;
 }
 
 #bezorging,
@@ -474,7 +630,10 @@ footer {
 /* Media queries */
 /* Small: <640px Medium: 641 - 1007px Large: >1008px  */
 @media screen and (min-width: 1008px) {
-  .main_content h1 {
+
+  .main_content h1,
+  .cards section:nth-child(2)>.cardsTextWrapper>h1,
+  .cards section:nth-child(3)>.cardsTextWrapper>h1 {
     font-size: 5em;
     max-width: 12em;
   }
@@ -482,6 +641,12 @@ footer {
   .m1_icon {
     width: 12em;
   }
+
+  .cards section:nth-child(2)>.cardsTextWrapper>p,
+  .cards section:nth-child(3)>.cardsTextWrapper>p {
+    max-width: 30em;
+  }
+
 }
 
 @media screen and (max-width: 641px) {
@@ -501,6 +666,11 @@ footer {
 
   .two_not_even_cards section:nth-child(1) {
     width: 100%;
+  }
+
+  .two_cards section:nth-child(-n+2),
+  .two_not_even_cards section:nth-child(-n+2) {
+    min-height: 40em;
   }
 }
 
@@ -579,7 +749,7 @@ footer {
   }
 
   .cpu>.cardsTextWrapper>p {
-    max-width: 20em;
+    max-width: 30em;
   }
 }
 
