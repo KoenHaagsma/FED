@@ -703,17 +703,12 @@ footer {
 
 .macmini_container {
   margin-top: 2em;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .macmini_container>section:nth-child(-n+3) {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  max-width: 90vw;
+  max-width: 60vw;
   margin: auto;
   width: 100%;
   display: flex;
@@ -724,6 +719,67 @@ footer {
   border-bottom: 1px solid #d6d6d6;
   text-align: left;
   align-items: center;
+}
+
+.macmini_container>section:nth-child(-n+3) h3 {
+  color: #ef5602;
+  padding-bottom: 1em;
+  font-weight: 100;
+
+}
+
+.macmini_container>section:nth-child(-n+3) h2 {
+  font-size: 1.3em;
+  padding-bottom: 1em;
+}
+
+.macmini_container>section:nth-child(-n+3) p {
+  padding-bottom: 1.3em;
+  color: #333;
+  line-height: 2em;
+}
+
+.macmini_container>section:nth-child(-n+3) h4 {
+  font-size: 2em;
+}
+
+.macmini_container>section:nth-child(-n+3) .underprice {
+  color: #333;
+  line-height: normal;
+}
+
+.macmini_container>section:nth-child(-n+3) button {
+  background-color: #0070c9;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #07c;
+  max-width: 60vw;
+  font-weight: 400;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  padding: 4px 15px;
+  outline: none;
+  max-width: 100%;
+  width: 80vw;
+}
+
+.macmini_container>section:nth-child(-n+3) button:hover {
+  background-color: #147bcd;
+  background: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
+}
+
+.macmini_container>section:nth-child(-n+3) button:focus{
+  background-color: #147bcd;
+  background: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
+  scale: 1.4;
+  transition: 1s;
+  max-width: 80%;
+  text-decoration: underline;
 }
 
 .active_hero {
@@ -786,6 +842,26 @@ footer {
 
   .hamburgerMenu {
     display: none;
+  }
+
+}
+
+@media screen and (min-width: 820px) {
+  .macmini_container>section:nth-child(-n+3) {
+    max-width: 30%;
+    border: none;
+  }
+
+  .macmini_container {
+    flex-direction: row;
+  }
+
+  .macmini_container>section:nth-child(-n+3) h2 {
+    min-height: 6em;
+  }
+
+  .details_info {
+    min-height: 10em;
   }
 }
 
