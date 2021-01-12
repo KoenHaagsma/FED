@@ -15,11 +15,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-Wat voor mij moeilijk was, was het om het simpel te houden, tijdens het proces heb ik gekeken naar nieuwe technieken die ik zou kunnen toepassen. Dat heb ik dan ook gedaan en ik heb geleerd over Grid en Picture, ik heb altijd al moeite gehad met plaatjes maar door Picture te gebruiken is het voor mij wat makkelijker geworden. Grid ben ik nog steeds aan het leren, dat gaat nog niet zo simpel als Flexbox-
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/page1-voortgang.jpg" width="375px" alt="Voortgang screenshot van de website">
+<img src="images/page1a-voortgang.jpg" width="375px" alt="Voortgang screenshot van de website">
+<img src="images/page2-voortgang.jpg" width="375px" alt="Voortgang screenshot van de website">
 
 ## Voortgang 3 (week 6)
 

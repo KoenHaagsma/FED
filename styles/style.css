@@ -497,7 +497,7 @@ main {
 }
 
 .cardsTextWrapper {
-  padding-left: .8em;
+  padding-left: 4em;
   padding-top: 2em;
 }
 
@@ -808,7 +808,16 @@ footer {
     max-width: 30em;
   }
 
+
+
 }
+
+@media screen and(max-width: 1008px) {
+  .cardsTextWrapper {
+    padding-left: .8em;
+  }
+}
+
 
 @media screen and (max-width: 641px) {
   .main_content {
